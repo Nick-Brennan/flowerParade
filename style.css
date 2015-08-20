@@ -1,0 +1,24 @@
+body{
+    font-family: helvetica;
+}
+
+img{
+    float: left;
+    height: 350px;
+    width: 350px;
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.column{
+    text-align: left;
+}
+
+#textBox{
+}
+
+hr{
+    margin-top: 30px;
+    clear:left;
+}
