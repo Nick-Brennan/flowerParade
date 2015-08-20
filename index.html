@@ -11,7 +11,9 @@
     </head>
     <body>
         <h1>The San Francisco First Annual General Assembly Parade of Flowers</h1>
+        <!--the <div> below is the future home of our dynamically generated HTML-->
         <div id="container"></div>
+        <!--this is our template for underscore.js-->
         <script type="text/template" id="flower-template">
             <hr><div id="imageBox" class="column"><img src="<%=imgURL%>"></div><div class="column" id="textBox"><p>Flower Name: <%=name%></p><p>Flower Color: <%=color%></p><p>Petal Count: <%=petals%></p><p>Leaf Count: <%=leaves%></p><p>Origin: <%=origin%></p><p>Edible: <%=edible%></p><p>Smells Pretty: <%=smellsPretty%></p><p>Comments: <%=comments%></p></div><hr>
         </script>
