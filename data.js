@@ -1,4 +1,4 @@
-var flower = {
+var Flower = {
     name: 'Sun Flower',
     color: 'Blue',
     petals: 6,
