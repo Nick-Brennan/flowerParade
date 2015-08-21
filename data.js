@@ -10,7 +10,7 @@
 //    imgURL: "http://i.imgur.com/wgfLAAA.jpg"
 //};
 
-function Flower(name, color, petals, smellsPretty, origin, leafCount, comments){
+function Flower(name, color, petals, smellsPretty, origin, leafCount, comments, imageURL){
    /* Properties */
    // Passed-in values
    this.name = name;
@@ -24,7 +24,7 @@ function Flower(name, color, petals, smellsPretty, origin, leafCount, comments){
    // Default values
    this.isEdible = false;
    this.wiltFactor = 20; //0 is dead, 100 is fresh
-   this.image = "http://i.imgur.com/HnT0QEo.jpg?1";
+   this.image = imageURL;
 
     /* Methods */
    this.sniff = function(){

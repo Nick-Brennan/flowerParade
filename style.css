@@ -1,5 +1,10 @@
 body{
     font-family: helvetica;
+    background-color: #D2FAD3;
+}
+
+h1{
+    font-size: 55px;
 }
 
 img{
@@ -13,7 +18,7 @@ img{
     vertical-align: top
     text-align: left;
     height: 350px;
-    width: 175px;
+    width: 225px;
     display: inline-block;
 }
 
