@@ -16,18 +16,20 @@
         <!--this is our template for underscore.js-->
         <script type="text/template" id="flower-template">
             <hr>
-            <div id="imageBox" class="column">
-                    <img src="<%=imgURL%>">
+            <div id="imageBox" class="side-by-side">
+                    <img src="<%=image%>">
             </div>
-            <div class="column" id="textBox">
-                <p>Flower Name: <%=name%></p>
-                <p>Flower Color: <%=color%></p>
-                <p>Petal Count: <%=petals%></p>
-                <p>Leaf Count: <%=leaves%></p>
-                <p>Origin: <%=origin%></p>
-                <p>Edible: <%=edible%></p>
-                <p>Smells Pretty: <%=smellsPretty%></p>
-                <p>Comments: <%=comments%></p>
+            <div id="textLeft" class="side-by-side">
+                <p><b>Flower Name:</b> <%=name%></p>
+                <p><b>Flower Color:</b> <%=color%></p>
+                <p><b>Petal Count:</b> <%=petals%></p>
+                <p><b>Leaf Count:</b> <%=leafCount%></p>
+            </div>    
+            <div id="textRight" class="side-by-side">    
+                <p><b>Origin:</b> <%=origin%></p>
+                <p><b>Edible:</b> <%=isEdible%></p>
+                <p><b>Smells Pretty:</b> <%=smellsPretty%></p>
+                <p><b>Comments:</b> <%=comments%></p>
             </div>
             <hr>
         </script>
