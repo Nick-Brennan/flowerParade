@@ -1,6 +1,6 @@
 body{
     font-family: helvetica;
-    background-color: #D2FAD3;
+    background-color: #EBFAEB;
 }
 
 h1{
@@ -23,7 +23,7 @@ img{
 }
 
 hr{
-    margin-top: 15px;
+    margin-top: 10px;
     clear:left;
 }
 

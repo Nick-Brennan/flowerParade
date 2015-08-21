@@ -1,5 +1,6 @@
 //This is the short-hand form of the jquery document.ready()
 $(function(){
+    //here I am building an array of Flower objects using my flower constructor.
     var comment = "The first scientific description of a Gerbera was made by J.D. Hooker in Curtis's Botanical Magazine in 1889 when he described Gerbera jamesonii, a South African species also known as Transvaal daisy or Barberton Daisy";
     var comment2 = "Dahlia's are most commonly used for decorative purposes on cakes, tarts and pastries. Serve alongside cheese or desserts as a garnish. Remove the petals of the Dahlia and add them to grain or green salads to add a pop of color.";
     var comment3 = "Used most often as an ornamental plant, these large, and beautiful flowers are toxic. However, that doesn't stop some from brewing these cyanide laced blossoms into tea.";
